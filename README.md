@@ -11,7 +11,7 @@ This is a simple Android application that retrieves the user's current location 
 
 ## Getting started
 ### Prerequisites
-1. Android Studio installed on your machine.2
+1. Android Studio installed on your machine.
 2. A Firebase project set up with Realtime Database enabled. Add the google-services.json file in the app module.
 
 ### Installing
