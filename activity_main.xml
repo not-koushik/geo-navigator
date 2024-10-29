@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@drawable/background_image">
+
+    <!-- Text for name and ID -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Koushik Panchadarla"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:padding="12dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CH.EN.U4CYS21052"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:padding="12dp" />
+
+    <!-- Button for getting current location -->
+    <Button
+        android:id="@+id/getLocationBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:textColor="#FFFFFF"
+        android:text="Get Current Location"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:layout_gravity="center"
+        android:elevation="4dp"
+        android:background="@drawable/button_rounded" />
+
+    <!-- Latitude TextView -->
+    <TextView
+        android:id="@+id/latText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latitude: "
+        android:textSize="22sp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:padding="12dp"
+        android:textStyle="bold" />
+
+    <!-- Longitude TextView -->
+    <TextView
+        android:id="@+id/lonText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Longitude: "
+        android:textSize="22sp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:padding="12dp"
+        android:textStyle="bold" />
+
+    <!-- Button for navigating to Google Maps -->
+    <Button
+        android:id="@+id/navigateBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textColor="#FFFFFF"
+        android:text="Navigate to Google Maps"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:elevation="4dp"
+        android:drawableLeft="@drawable/ic_google_maps"
+        android:drawablePadding="8dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_border" />
+
+</LinearLayout>
